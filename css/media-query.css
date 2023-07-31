@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media(max-width:320px)
+{
+	
+}
+
+@media(min-width:411px) and (max-width:415px) {
+	
+}
+@media(min-width:320px) and (max-width:767px) 
+{
+	.img-height:after{		display: none;	}
+	
+	.carousel-item { width: 100%;height: 240px;}
+	
+	.sign-in-form{ width: 100%;transform: none; top: auto; left: auto; position: static;}
+	
+	.sign-inbg{ padding: 30px}
+	
+	.sign-inbg-img{display: none;}
+	
+	.side-menu{min-height: auto !important;	}
+	
+	.navbar-toggler {
+		position: absolute;
+		top: 90px;
+		right: 15px;
+	}
+	.navbar.navbar-expand-md{		position: static !important;	}
+	
+	.container-fluid .container{
+		padding-left: 0;
+		padding-right: 0;		
+	}
+	
+	.profile-img {
+		width: 30px;
+		height: 30px;    
+	}
+	.balance {   font-size: 40px;}
+	
+	.cashBal tr td, .cashBal tr th{
+		padding: 5px;
+	}
+	.sportsbook tr th, .sportsbook tr td{
+		font-size: 12px !important;	
+		font-weight: 300!important;
+	}
+	.heading{
+		font-size: 30px;
+	}
+}
+
+@media(min-width:575px) and (max-width:767px) and (orientation: landscape){
+	
+	.sign-inbg{ padding: 30px}
+	
+	.sign-inbg-img{display: none;}
+	
+	.sign-in-form{ width: 100%; transform: none; top: auto; left: auto; position: static;}
+}
+
+@media(min-width:768px) and (max-width:1400px) and (orientation: landscape) {
+	.sign-inbg{ padding: 30px}
+	
+/*	.sign-inbg-img{display: none;}*/
+	
+	.sign-in-form{ width: 400px;transform: none; top: auto; left: auto; position: relative; margin-left: auto;margin-right: auto}
+}
+
+@media(min-width:768px) and (max-width:1022px) {
+	.carousel-item {
+		width: 100%;
+		height: 350px;
+	}
+	.direction-arrow { display: none}
+	
+	.menu li a {   
+     	margin-left: 0px; 
+    	margin-right: 0px;  
+	}
+	
+	.img-height:after {
+        width: 55px;
+   		right: -69px;  
+	}	
+	
+	.heading {    font-size: 30px;}
+	
+	.contact-info {   padding: 30px 30px;}
+	
+	.balance {    font-size: 50px; }
+}
+
+@media(min-width:1023px) and (max-width:1170px) {	
+	
+}

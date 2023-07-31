@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+@media (max-width: 1200px){
+	.couponSide {
+		display: none;
+	}
+	.bet-icon img{
+/*		width: 50px;*/
+		animation: rotation  2s infinite linear;
+	}
+	
+	.bet-icon{
+		background: #ffb80c;
+		padding: 5px 5px;
+		position: fixed;
+		border-radius: 5px;
+		top: 15%;
+		right: 0;
+		z-index: 99;
+	}
+	.couponSide{
+		position: fixed;		
+		right: 0;
+		float: right;
+		
+	}
+	.quick-coupon{
+		width: 400px;	
+		margin-left: auto;
+	}
+
+}
+
+@media (min-width: 300px) and (max-width: 767px){
+	
+	.sidelist{display: none}
+		
+	.list-icon{
+		background: #ffb80c;
+		padding: 5px 10px;
+		position: absolute;		
+		top: 8%;
+		left: 0;
+		z-index: 97;
+	}
+	.couponSide{
+		position: fixed;		
+		right: 0;
+		float: right;
+		
+	}
+	.quick-coupon{
+		width: 400px;	
+		margin-left: auto;
+	}
+	.sidelist{
+		position: fixed;
+		z-index: 100;
+		top: 86px;
+		
+	}
+	.side-menu{		
+		width: 300px;
+    	overflow-y: scroll;
+    	height: 85vh;
+	}
+	
+}
+
+@media (min-width: 300px) and (max-width: 415px){
+	.couponSide{
+		position: fixed;		
+		right: 0;
+		float: right;
+		background: #2f2f2f;
+		padding: 15px;
+		bottom: 0;
+		z-index: 98;
+		height: 93vh;
+    overflow-y: scroll;
+	}
+	.quick-coupon{
+		width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	}	
+	.bet-icon{
+		top: 12%;	
+	}
+}
+@keyframes rotation {
+		from {
+				transform: rotate(0deg);
+		}
+		to {
+				transform: rotate(359deg);
+		}
+}
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}	
+}
